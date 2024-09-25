@@ -1,0 +1,154 @@
+:root {
+    --botao-azul: #2395ff;
+}   
+
+
+.inicio img{
+    position: relative;
+    width: 100%;
+}
+
+body {
+    background-color: #000;
+}
+.no-link {
+    text-decoration: none;
+    color: #fff;
+}
+
+.informacoes {
+    position: absolute;
+    top: 150px;
+    left: 50px;
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    justify-content: center;
+}
+.informacoes h1 {
+    text-align: center;
+    margin: 10px;
+    font-size: 25px;
+}
+.informacoes img {
+    width: 350px;
+    margin: 10px;
+}
+.informacoes .preco {
+    background-color: var(--botao-azul);
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    width: 550px;
+    border-radius: 5px;
+}
+.informacoes .preco:hover {
+    cursor: pointer;
+}
+.informacoes .aluraplus {
+    border: 2px solid #fff;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    border-radius: 5px;
+    width: 550px;
+}
+.informacoes .aluraplus:hover {
+    cursor: pointer;
+}
+.informacoes p {
+    margin: 10px;
+    font-size: 13px;
+}
+
+
+
+.bloco {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    margin: 10px;
+}
+.texto h1 {
+    font-size: 40px;
+}
+.texto p {
+    font-size: 18px;
+}
+.bloco img {
+    width: 400px;
+}
+
+
+
+.combo {
+    display: flex;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    margin: 10px;
+}
+.combos p{
+    margin: 10px;
+    font-size: 18px;
+}
+
+.combo .combos .assinar {
+    background-color: var(--botao-azul);
+    padding: 15px;
+    width: 170px;
+    border-radius: 5px;
+    margin: 10px;
+}
+.combo .combos .assinar:hover {
+    cursor: pointer;
+}
+
+
+
+.dispositivos {
+    color: #fff;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+.dispositivos h1 {
+    font-size: 35px
+}
+.dispositivos .info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dispositivo {
+    text-align: center;
+}
+
+
+
+
+
+footer {
+    color: #fff;
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+}
+footer .topicos {
+    justify-content: center;
+    display: flex;
+    gap: 30px;
+}
+.topicos p:hover {
+    color: #2395ff;
+    cursor: pointer;
+}
+.botoes .logo img {
+    width: 100px;
+    margin: 30px;
+}
